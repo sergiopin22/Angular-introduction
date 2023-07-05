@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeroesModule } from './Heroes/Heroes.module';
 import { ContadorModule } from './contador/contador.module';
+import { MainPageComponent } from './dbz/main-page/main-page.component';
+import { DbzModule } from './dbz/dbz.module';
 
 //Tarea: 
 //crear un nuevo modulo llamado contadorModule
@@ -12,13 +14,14 @@ import { ContadorModule } from './contador/contador.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
+    AppComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HeroesModule,
-    ContadorModule
+    ContadorModule,
+    DbzModule
   ],
   providers: [],
   bootstrap: [AppComponent]
