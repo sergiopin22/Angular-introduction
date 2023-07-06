@@ -81,7 +81,31 @@ La directiva ngIf-else es una combinación de las directivas ngIf y ng-template 
 
 De esta manera, las directivas ng-template y ngIf-else brindan la flexibilidad de renderizar contenido condicionalmente y reutilizar plantillas en diferentes partes del código Angular. Estas funcionalidades son fundamentales para crear interfaces de usuario dinámicas y adaptativas.
 
+### FormsModule
 
+El módulo FormsModule es parte del framework Angular y permite trabajar con formularios en aplicaciones web. Proporciona diversas funcionalidades para facilitar la validación de datos, seguimiento de cambios y gestión de formularios.
+
+Algunas de las características clave del módulo FormsModule son las siguientes:
+
+Enlace de datos bidireccional: FormsModule permite establecer enlaces de datos bidireccionales entre los elementos de un formulario y el modelo de datos subyacente. Esto significa que los cambios realizados en el formulario se reflejarán automáticamente en el modelo y viceversa.
+
+Validación de formularios: FormsModule proporciona directivas para validar los campos de formulario. Puedes usar directivas como ngModel, ngModelGroup y ngForm para aplicar reglas de validación personalizadas y mostrar mensajes de error correspondientes.
+
+Seguimiento de cambios: FormsModule permite rastrear los cambios realizados en los campos de formulario. Puedes utilizar la directiva ngModel para detectar cambios en los valores de los campos y realizar acciones adicionales, como la validación o la actualización de otros elementos del formulario.
+
+Control de estado del formulario: FormsModule proporciona funcionalidades para controlar el estado del formulario, como si ha sido tocado, si es válido o si se ha enviado. Puedes utilizar directivas como ngForm y propiedades asociadas, como valid, touched y submitted, para realizar acciones basadas en el estado del formulario.
+
+Envío de formularios: FormsModule facilita el envío de formularios. Puedes utilizar la directiva ngForm para detectar el evento de envío del formulario y realizar acciones correspondientes, como enviar los datos al servidor o realizar validaciones adicionales antes del envío.
+
+Estas son solo algunas de las características más destacadas del módulo FormsModule en Angular. Utilizando este módulo, puedes crear formularios interactivos y gestionar la entrada de datos en tus aplicaciones web de manera sencilla y eficiente.
+
+## Evento ngSubmit
+
+Cuando se utiliza ngSubmit en un formulario, se puede asociar a un método o función definida en el componente de Angular. Este método se ejecutará cuando el usuario envíe el formulario, ya sea presionando el botón de envío o presionando la tecla Enter mientras se encuentra en un campo de entrada.
+
+### Componetes hijos
+
+### @input
 
 
 
